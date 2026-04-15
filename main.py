@@ -16,7 +16,7 @@ async def GetImage():
             f.write(x.content)
 
 async def GetPlayerData():
-    key = os.getenv('APIKEY')
+    key = os.getenv('ApexStatusKey')
     player = 'Fui96'
     Platform = 'PC'
 
@@ -28,7 +28,27 @@ async def GetPlayerData():
         with open("data.json",'w') as f:
             json.dump(y,f,indent=4)
 
+async def GetPlayerSessions():
+    key = os.getenv('TrackerGGkey')
+    player = 'Fui96'
+    Platform = 'origin'
+    
+    x = requests.get(f"https://public-api.tracker.gg/v2/apex/standard/profile/{Platform}/{player}/sessions",headers=({"TRN-Api-Key":f"{key}"}))
 
-        
+    if x.status_code == 200:
+        y = json.dumps(x)
+        with open("sessions.json","w") as f :
+            f.write(y)
+    else:
+        print(x.status_code)
+
+
+async def Main():
+    await GetPlayerData()
+    await GetPlayerSessions()
+
+
 # asyncio.run(GetImage())
-asyncio.run(GetPlayerData())
+
+if __name__ == "__main__":
+    asyncio.run(Main())

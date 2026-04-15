@@ -6,24 +6,24 @@
         "avatar": "https://secure.download.dm.origin.com/production/avatar/prod/1/599/208x208.JPEG",
         "platform": "PC",
         "level": 279,
-        "toNextLevelPercent": 0,
-        "internalUpdateCount": 14736,
+        "toNextLevelPercent": 54,
+        "internalUpdateCount": 14750,
         "bans": {
             "isActive": false,
             "remainingSeconds": 0,
             "last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
         },
         "rank": {
-            "rankScore": 10912,
+            "rankScore": 11125,
             "rankName": "Platinum",
-            "rankDiv": 2,
+            "rankDiv": 1,
             "ladderPosPlatform": -1,
-            "rankImg": "https://api.mozambiquehe.re/assets/ranks/platinum2.png",
+            "rankImg": "https://api.mozambiquehe.re/assets/ranks/platinum1.png",
             "rankedSeason": "br_ranked",
-            "ALStopPercent": 15.9,
-            "ALStopInt": 547197,
-            "ALStopPercentGlobal": 16.2,
-            "ALStopIntGlobal": 583816,
+            "ALStopPercent": 14.87,
+            "ALStopInt": 515160,
+            "ALStopPercentGlobal": 15.17,
+            "ALStopIntGlobal": 550320,
             "ALSFlag": false
         },
         "arena": {
@@ -81,19 +81,19 @@
             "data": [
                 {
                     "name": "BR Kills",
-                    "value": 5368,
+                    "value": 5377,
                     "key": "kills",
                     "global": false
                 },
                 {
                     "name": "BR Damage",
-                    "value": 2435991,
+                    "value": 2440810,
                     "key": "damage",
                     "global": false
                 },
                 {
                     "name": "Into the void: Time",
-                    "value": 26672,
+                    "value": 26736,
                     "key": "phase_walk_time",
                     "global": false
                 }
@@ -143,11 +143,11 @@
                         "value": 115,
                         "key": "scout_of_action_targets_hit",
                         "rank": {
-                            "rankPos": 36919,
+                            "rankPos": 36933,
                             "topPercent": 3.55
                         },
                         "rankPlatformSpecific": {
-                            "rankPos": 32936,
+                            "rankPos": 32950,
                             "topPercent": 4.17
                         }
                     }
@@ -231,28 +231,28 @@
                 "data": [
                     {
                         "name": "BR Kills",
-                        "value": 5368,
+                        "value": 5377,
                         "key": "kills",
                         "rank": {
-                            "rankPos": 224420,
-                            "topPercent": 5.03
+                            "rankPos": 223859,
+                            "topPercent": 5.02
                         },
                         "rankPlatformSpecific": {
-                            "rankPos": 113311,
-                            "topPercent": 4.6
+                            "rankPos": 113059,
+                            "topPercent": 4.59
                         }
                     },
                     {
                         "name": "BR Damage",
-                        "value": 2435991,
+                        "value": 2440810,
                         "key": "damage",
                         "rank": {
-                            "rankPos": 107399,
-                            "topPercent": 3.25
+                            "rankPos": 107052,
+                            "topPercent": 3.24
                         },
                         "rankPlatformSpecific": {
-                            "rankPos": 56855,
-                            "topPercent": 2.6
+                            "rankPos": 56692,
+                            "topPercent": 2.59
                         }
                     },
                     {
@@ -265,7 +265,7 @@
                         },
                         "rankPlatformSpecific": {
                             "rankPos": 2287,
-                            "topPercent": 6.55
+                            "topPercent": 6.54
                         }
                     },
                     {
@@ -273,25 +273,25 @@
                         "value": 11642,
                         "key": "voice_warnings_heard",
                         "rank": {
-                            "rankPos": 17964,
+                            "rankPos": 17969,
                             "topPercent": 3.17
                         },
                         "rankPlatformSpecific": {
-                            "rankPos": 5526,
+                            "rankPos": 5531,
                             "topPercent": 2.11
                         }
                     },
                     {
                         "name": "Into the void: Time",
-                        "value": 26672,
+                        "value": 26736,
                         "key": "phase_walk_time",
                         "rank": {
-                            "rankPos": 34138,
-                            "topPercent": 2.11
+                            "rankPos": 33984,
+                            "topPercent": 2.1
                         },
                         "rankPlatformSpecific": {
-                            "rankPos": 12574,
-                            "topPercent": 1.28
+                            "rankPos": 12523,
+                            "topPercent": 1.27
                         }
                     },
                     {
@@ -300,11 +300,11 @@
                         "key": "arenas_kills",
                         "rank": {
                             "rankPos": 10290,
-                            "topPercent": 15.51
+                            "topPercent": 15.5
                         },
                         "rankPlatformSpecific": {
                             "rankPos": 3548,
-                            "topPercent": 21.11
+                            "topPercent": 21.1
                         }
                     },
                     {
@@ -317,7 +317,7 @@
                         },
                         "rankPlatformSpecific": {
                             "rankPos": 2657,
-                            "topPercent": 9.06
+                            "topPercent": 9.05
                         }
                     },
                     {
@@ -325,7 +325,7 @@
                         "value": 114,
                         "key": "arenas_wins",
                         "rank": {
-                            "rankPos": 12656,
+                            "rankPos": 12657,
                             "topPercent": 27.21
                         },
                         "rankPlatformSpecific": {
@@ -370,7 +370,7 @@
                         "value": 222,
                         "key": "kills",
                         "rank": {
-                            "rankPos": 4002656,
+                            "rankPos": 4004196,
                             "topPercent": 74.23
                         },
                         "rankPlatformSpecific": {
@@ -383,8 +383,8 @@
                         "value": 28796,
                         "key": "passive_health_regen",
                         "rank": {
-                            "rankPos": 663673,
-                            "topPercent": 62.88
+                            "rankPos": 664116,
+                            "topPercent": 62.89
                         },
                         "rankPlatformSpecific": {
                             "rankPos": "NOT_CALCULATED_YET",
@@ -432,7 +432,7 @@
                         "value": 128,
                         "key": "kills",
                         "rank": {
-                            "rankPos": 2947648,
+                            "rankPos": 2948091,
                             "topPercent": 76.57
                         },
                         "rankPlatformSpecific": {
@@ -445,7 +445,7 @@
                         "value": 45807,
                         "key": "damage",
                         "rank": {
-                            "rankPos": 2100610,
+                            "rankPos": 2100949,
                             "topPercent": 62.72
                         },
                         "rankPlatformSpecific": {
@@ -458,7 +458,7 @@
                         "value": 78,
                         "key": "revives",
                         "rank": {
-                            "rankPos": 147373,
+                            "rankPos": 147401,
                             "topPercent": 60.11
                         },
                         "rankPlatformSpecific": {
@@ -471,7 +471,7 @@
                         "value": 169,
                         "key": "specialEvent_kills",
                         "rank": {
-                            "rankPos": 1778721,
+                            "rankPos": 1778963,
                             "topPercent": 81.66
                         },
                         "rankPlatformSpecific": {
@@ -484,7 +484,7 @@
                         "value": 63070,
                         "key": "specialEvent_damage",
                         "rank": {
-                            "rankPos": 1792318,
+                            "rankPos": 1792612,
                             "topPercent": 63.78
                         },
                         "rankPlatformSpecific": {
@@ -497,7 +497,7 @@
                         "value": 6,
                         "key": "specialEvent_wins",
                         "rank": {
-                            "rankPos": 1364871,
+                            "rankPos": 1365008,
                             "topPercent": 77.55
                         },
                         "rankPlatformSpecific": {
@@ -510,8 +510,8 @@
                         "value": 64159,
                         "key": "arenas_damage",
                         "rank": {
-                            "rankPos": 48094,
-                            "topPercent": 56.08
+                            "rankPos": 48099,
+                            "topPercent": 56.09
                         },
                         "rankPlatformSpecific": {
                             "rankPos": "NOT_CALCULATED_YET",
@@ -666,11 +666,11 @@
         },
         "kills": {
             "name": "BR Kills",
-            "value": 5720
+            "value": 5729
         },
         "damage": {
             "name": "BR Damage",
-            "value": 2481798
+            "value": 2486617
         },
         "revives": {
             "name": "BR Revives",
@@ -682,7 +682,7 @@
         },
         "phase_walk_time": {
             "name": "Into the void: Time",
-            "value": 26672
+            "value": 26736
         },
         "arenas_kills": {
             "name": "Arenas Kills",
@@ -717,5 +717,5 @@
             "name": "KD"
         }
     },
-    "processingTime": 2.1435019969940186
+    "processingTime": 0.2610588073730469
 }
